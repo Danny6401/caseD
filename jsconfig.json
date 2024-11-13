@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        // "moduleResolution": "Bundler",
+        "target": "ES2020",
+        "jsx": "react",
+        "allowImportingTsExtensions": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true
+    },
+    "include": [
+        "./routers/**/*",
+        "./node_modules/cookie-parser/**/*",
+        "./node_modules/firebase/**/*",
+        "./node_modules/express/**/*",
+        "./database/**/*",
+    ]
+}
